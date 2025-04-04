@@ -1,4 +1,4 @@
-#Edify 🎓
+# Edify 🎓
 
 An e-learning platform providing free courses, scholarships, certifications, and mentorship.
 
@@ -6,7 +6,7 @@ An e-learning platform providing free courses, scholarships, certifications, and
 https://edify-frontend.web.app/
 
 
-#🚀 About Edify
+# 🚀 About Edify
 
 Edify is a user-friendly e-learning platform that offers:
 ✅ Free Courses – Learn without any cost.
@@ -27,7 +27,7 @@ Edify is a user-friendly e-learning platform that offers:
 📱 Responsive UI for a seamless learning experience.
 
 
-#🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 Frontend: React.js, CSS, HTML  
 
@@ -36,7 +36,7 @@ Database: FireBase
 Authentication: FireBase Auth
 
 
-#🔧 Installation & Setup
+# 🔧 Installation & Setup
 
 1. Clone the repository:
 
@@ -46,12 +46,12 @@ cd edify2
 
 2. Install dependencies:
 
-###npm install
+### npm install
 
 
 3. Run the development server:
 
-###npm start
+### npm start
 
 
 4. Open http://localhost:3000 in your browser.
