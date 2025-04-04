@@ -1,0 +1,256 @@
+.home {
+  text-align: center;
+  padding: 50px;
+}
+
+.btn {
+  background: #7AC142; /* Green color */
+  
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Section Styling */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 10%;
+  background-color: #fff;
+}
+
+/* Left Side Content */
+.hero-content {
+  max-width: 50%;
+}
+
+/* Heading */
+.hero-content h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+}
+
+.hero-content .highlight {
+  color: #5697de; /* Green color */
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: black;
+}
+
+/* Description */
+.description {
+  font-size: 16px;
+  color: #444;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+/* CTA Button */
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #5697de;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #2f7bcd;
+}
+
+/* Right Side Image */
+.hero-image img {
+  width: 400px; /* Adjust as needed */
+  max-width: 100%;
+}
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+.card-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+/* Section Styling */
+.track-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: white;
+}
+
+/* Title and Description */
+.section-title {
+  font-size: 28px;
+  margin-top: -60px;
+  margin-bottom: 20px;
+  color:rgb(42, 147, 176);
+  font-weight: bold;
+}
+
+.section-description {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Track Box Styling */
+.track-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.track-box {
+  width: 70%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  background-color: rgb(236, 251, 255);
+  border-left: 5px solid rgb(42, 147, 176);
+}
+
+.track-box h3 {
+  font-size: 20px;
+  color:rgb(42, 147, 176);
+}
+
+.track-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.track-box ul li {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+/* Add Bullet Style */
+.track-box ul li::before {
+  content: "✔";
+  color:rgb(42, 147, 176);
+  position: absolute;
+  left: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* Container Styling */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+/* Content Wrapper */
+.content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 900px;
+}
+
+/* Left Side - Image Box */
+.image-box {
+  position: relative;
+  width:auto;
+  height:auto;
+}
+
+.image-box img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Floating Icons */
+.icon {
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.top-right {
+  top: 10px;
+  right: 10px;
+}
+
+.bottom-left {
+  bottom: 10px;
+  left: 10px;
+}
+
+/* Right Side - Form */
+.form-box {
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-box h2 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.form-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-box input,
+.form-box select {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-box button {
+  background-color: #2f7bcd;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background-color: #5697de;
+}
+
+

@@ -1,0 +1,149 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 25px; /* Reduced padding to decrease navbar height */
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Brand Logo */
+.navbar-brand img {
+  height: 45px; /* Increased logo height */
+  width: auto; /* Keep aspect ratio */
+}
+
+/* Search Bar */
+.navbar-search {
+  margin-right: 10px; /* Reduced spacing between search and courses */
+}
+
+.navbar-search input {
+  width: 250px; /* Slightly reduced width */
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.navbar-search input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Navbar Items */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Reduced gap between items */
+}
+
+.nav-link {
+  color : rgb(0, 0, 0);
+}
+
+/* Courses Dropdown */
+.nav-item.dropdown button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  padding: 6px;
+}
+
+/* Custom Dropdown */
+.custom-dropdown1 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 150px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 200px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-dropdown .dropdown-item {
+  padding: 8px;
+  text-decoration: none;
+  text-align: left;
+  color: #333;
+  transition: background 0.3s ease;
+}
+.custom-dropdown1 .dropdown-item {
+  padding: 8px;
+  text-decoration: none;
+  text-align: left;
+  color: #333;
+  transition: background 0.3s ease;
+}
+
+.custom-dropdown .dropdown-item:hover {
+  background-color: #f5f5f5;
+}
+
+/* Buttons */
+.login-btn,
+.signup-btn {
+  text-decoration: none;
+  padding: 6px 18px; /* Reduced button size */
+  border-radius: 20px;
+  font-weight: 500;
+  border: 1px solid #000;
+  background: white;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+  background: black;
+  color: white;
+}
+
+/* Profile Dropdown */
+.profile-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.profile-dropdown {
+  right: 0;
+  left: auto;
+}
+
+.profile-dropdown-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+

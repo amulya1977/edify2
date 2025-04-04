@@ -1,0 +1,84 @@
+/* General Page Styling */
+.schedule-page {
+  padding: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Arial, sans-serif;
+}
+
+.schedule-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Course Section Styling */
+.course-section {
+  background: #f6f6f6;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.course-header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+  background: #e9e9e9;
+  border-bottom: 2px solid #5697de;
+}
+
+.course-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.course-header h2 {
+  font-size: 22px;
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+/* Course Dropdown Styling */
+.course-dropdown {
+  padding: 10px 15px;
+}
+
+.day-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ffffff;
+  font-size: 16px;
+}
+
+.day-item:last-child {
+  border-bottom: none;
+}
+
+.day-item input[type='checkbox'] {
+  width: 18px;
+  height: 18px;
+  accent-color: #5697de;
+}
+
+/* Progress Bar Styling */
+.progress-container {
+  width: 100%;
+  background: #ffffff;
+  height: 5px;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+/* .progress-bar {
+  height: 5px;
+  background: #5697de;
+  border-radius: 3px;
+  transition: width 0.3s ease-in-out;
+} */

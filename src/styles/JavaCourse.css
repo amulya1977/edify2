@@ -1,0 +1,22 @@
+/* Main Course Container */
+.course-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    gap: 30px;
+  }
+  
+  /* Content Section (Tabs + Description) */
+  .course-content {
+    width: 65%;
+  }
+  
+  /* Course Card (Sidebar) */
+  .course-card {
+    width: 30%;
+    flex-shrink: 0;
+  }
+  

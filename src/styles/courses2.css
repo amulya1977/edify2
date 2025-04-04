@@ -1,0 +1,84 @@
+/* Container styles */
+.career-tracks-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+.career-tracks-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* Grid layout */
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Course box styles */
+.course-box {
+  background-color: #f4f4f4;  /* Light ash color */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+
+.course-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Image styles */
+.course-images {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display:block;
+}
+
+/* Course content */
+.course-content {
+  padding: 1rem;
+}
+
+.course-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.course-description {
+  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+/* Duration text */
+.course-duration {
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+/* Start for free button */
+.start-button {
+  width: 100%;
+  background-color: #5697de; /* Mid blue */
+  color: white;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.start-button:hover {
+  background-color: #2f7bcd; /* Light blue on hover */
+}
